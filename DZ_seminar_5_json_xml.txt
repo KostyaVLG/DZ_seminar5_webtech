@@ -19,16 +19,15 @@
 *** ИСПРАВЛЕНО ***
 
 <?xml version="1.0" encoding="UTF-8"?>
-<users>
-  <user>
-  	<name>"Иван"</name>
-  	<surname>"Иванов"</surname>
-  	<patronymic>"Иванович"</patronymic>
-  	<age>"30"</age>
-  	<phone>"Москва"</phone>
-  	<birthplace>"+7 926 766 48 48"</birthplace>
-  </user>
-</users>
+<user>
+  	<name>Иван</name>
+  	<surname>Иванов</surname>
+  	<patronymic>Иванович</patronymic>
+  	<age>30</age>
+  	<phone>+7 926 766 48 48</phone>
+  	<birthplace>Москва</birthplace>
+</user>
+
 
 ----------------------------------------------------------------------------------------------
 
@@ -50,13 +49,13 @@ phone: +7 926 766 48 48,
   "name": "Иван",
   "surname": "Иванов",
   "patronymic": "Иванович",
-  "age": "30",
+  "age": 30,
   "birthplace": "Москва",
-  "phone": +7 926 766 48 48
+  "phone": "+7 926 766 48 48"
 }
 
 ----------------------------------------------------------------------------------------------
 
-Совутую пользоваться парсерами, которые были на семинаре, чтобы проверить что все сделали так, как нужно:
+Советую пользоваться парсерами, которые были на семинаре, чтобы проверить что все сделали так, как нужно:
 xml-парсер: https://jsonformatter.org/xml-formatter
 json-парсер: https://jsonformatter.org/json-parser
